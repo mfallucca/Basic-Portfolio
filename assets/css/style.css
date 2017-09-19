@@ -97,6 +97,7 @@ ul {
 	background-color: #cccccc;
 	height: 3px;
 	border: none;
+	line-height: 0;
 }
 
 footer {
@@ -111,13 +112,14 @@ footer {
 	margin: 5%;
 	font-size: 20px;
 	color: #777777;
-	font-weight: bold;
+	line-height: 1.5;
 }
 
-.leftsection p {
+.LeftTitle {
 	font-size: 30px;
 	color: #4aaaa5;
 	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
 }
 
 .rightsection p {
@@ -152,6 +154,7 @@ footer {
 #photo {
 	margin-top: 0;
 	margin-left: 0;
+	margin-bottom: 5px;
 }
 
 .iconsize img {
