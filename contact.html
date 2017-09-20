@@ -22,15 +22,15 @@
 			<div class = "margin">
 				<p class = "LeftTitle">Contact</p>
 				<hr>
-				<form>
+				<form method = "post" name="myemailform" action="form-to-email.php">
 					Name<br>
-					<input type = "text"><br><br>
+					<input type = "text" placeholder="John Smith" name = "name"><br><br>
 					Email<br>
-					<input type = "text"><br><br>
+					<input type = "text" placeholder="example@gmail.com" name = "email"><br><br>
 					Message<br>
-					<textarea></textarea>
+					<textarea name = "message"></textarea>
 					<br><br>
-					<input id = "Submit" type = "submit">
+					<input id = "Submit" type = "submit" value="Send Form">
 				</form>
 
 			</div>

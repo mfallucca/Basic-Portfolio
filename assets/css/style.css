@@ -199,7 +199,8 @@ li a:hover, li a:active {
 .leftsection input {
 	width: 100%;
 	border: 1px solid #cccccc;
-	height: 20px;
+	height: 30px;
+	font-size: 100%;
 }
 
 #Submit {
